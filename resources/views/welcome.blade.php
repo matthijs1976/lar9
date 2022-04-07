@@ -15,18 +15,18 @@
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
-                            <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>
+                                    <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>
 @else
     <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
 
-                            @if (Route::has('register'))
+                                    @if (Route::has('register'))
     <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
     @endif
                     @endauth
                 </div>
             @endif
             </div>-->
-    <div class="w-full relative bg-black">
+    <div class="w-full relative">
         <div class="w-full h-full flex flex-col absolute top-0 left-0 justify-center items-center text-white">
             <div class="w-28 md:w-36"><img src="https://www.archeosupport.nl/img/logo.png"></div>
             <div>
@@ -34,14 +34,13 @@
                 <h2 class="hidden md:block text-3xl text-center font-bold">text text text</h2>
                 <div class="flex justify-center md:pt-2">
                     <a href="#services">
-                        <button
-                            class="bg-blue-500 hover:bg-blue-700 text-white font-bold pt-1 pb-2 px-4 rounded-full">
+                        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold pt-1 pb-2 px-4 rounded-full">
                             Service
                         </button></a>
                 </div>
             </div>
         </div>
-         <img src="https://archeosupport.nl/img/cover.jpg" class="mx-auto">
+        <img src="https://archeosupport.nl/img/cover.jpg" class="mx-auto">
     </div>
     <!-- start nav -->
     <nav class="flex sticky inset-x-0 top-0 left-0 items-center bg-gray-800 p-3 flex-wrap">
@@ -100,7 +99,6 @@
                     ornare tincidunt facilisis. Donec dui lorem, aliquam vel sapien sed, scelerisque consectetur leo.
                     Cras lobortis erat vel arcu rutrum iaculis. Interdum et malesuada fames ac ante ipsum primis in
                     faucibus. Nulla at velit posuere, bibendum ex id, interdum arcu.
-
                     Suspendisse potenti. Nam sollicitudin sodales odio vitae malesuada. Proin malesuada massa vitae
                     vestibulum sagittis. Donec porttitor, ligula varius hendrerit malesuada, turpis dui cursus magna, at
                     luctus ligula erat vitae velit. Sed nec sem tempor, porttitor libero a, mollis ante. Nam consectetur
@@ -109,7 +107,7 @@
                     finibus leo sit amet commodo aliquam. Maecenas vestibulum tellus neque, vitae tincidunt massa dictum
                     eget. Nullam ut faucibus est. In hac habitasse platea dictumst. </p>
             </div>
-              <div class="h-full px-4 py-2 ">
+            <div class="h-full px-4 py-2 ">
                 <div class="w-1/2 mx-auto"><img src="https://media.s-bol.com/q6L2M54wAOLG/r8woJpB/168x196.jpg"></div>
             </div>
         </div>
@@ -130,7 +128,6 @@
                     ornare tincidunt facilisis. Donec dui lorem, aliquam vel sapien sed, scelerisque consectetur leo.
                     Cras lobortis erat vel arcu rutrum iaculis. Interdum et malesuada fames ac ante ipsum primis in
                     faucibus. Nulla at velit posuere, bibendum ex id, interdum arcu.
-
                     Suspendisse potenti. Nam sollicitudin sodales odio vitae malesuada. Proin malesuada massa vitae
                     vestibulum sagittis. Donec porttitor, ligula varius hendrerit malesuada, turpis dui cursus magna, at
                     luctus ligula erat vitae velit. Sed nec sem tempor, porttitor libero a, mollis ante. Nam consectetur
@@ -304,43 +301,6 @@
             <div class="grid gap-4 md:grid-cols-2">
                 <div class=" px-4 py-2 text-center leading-loose shadow-xl border-blue-500 border-2">
                     <h4 class="font-bold">P-Storyuspendisse finibus1</h4>
-
-                    <div class="w-1/3 mx-auto text-center bg-blue-700 rounded hover:bg-blue-500 transition-all">
-                        <a href="#" class="">
-                            <h4 class="font-semibold ">habitasse platea1-1</h4>
-                        </a>
-                    </div>
-                </div>
-                <div class=" px-4 py-2 text-center leading-loose shadow-xl border-blue-500 border-2">
-                    <h4 class="font-bold">P-Storyuspendisse finibus1</h4>
-
-                    <div class="w-1/3 mx-auto text-center bg-blue-700 rounded hover:bg-blue-500 transition-all">
-                        <a href="#" class="">
-                            <h4 class="font-semibold ">habitasse platea1-1</h4>
-                        </a>
-                    </div>
-                </div>
-                <div class=" px-4 py-2 text-center leading-loose shadow-xl border-blue-500 border-2">
-                    <h4 class="font-bold">P-Storyuspendisse finibus1</h4>
-
-                    <div class="w-1/3 mx-auto text-center bg-blue-700 rounded hover:bg-blue-500 transition-all">
-                        <a href="#" class="">
-                            <h4 class="font-semibold ">habitasse platea1-1</h4>
-                        </a>
-                    </div>
-                </div>
-                <div class=" px-4 py-2 text-center leading-loose shadow-xl border-blue-500 border-2">
-                    <h4 class="font-bold">P-Storyuspendisse finibus1</h4>
-
-                    <div class="w-1/3 mx-auto text-center bg-blue-700 rounded hover:bg-blue-500 transition-all">
-                        <a href="#" class="">
-                            <h4 class="font-semibold ">habitasse platea1-1</h4>
-                        </a>
-                    </div>
-                </div>
-                <div class=" px-4 py-2 text-center leading-loose shadow-xl border-blue-500 border-2">
-                    <h4 class="font-bold">P-Storyuspendisse finibus1</h4>
-
                     <div class="w-1/3 mx-auto text-center bg-blue-700 rounded hover:bg-blue-500 transition-all">
                         <a href="#" class="">
                             <h4 class="font-semibold ">habitasse platea1-1</h4>
@@ -357,16 +317,6 @@
                 </div>
                 <div class=" px-4 py-2 text-center leading-loose shadow-xl border-blue-500 border-2">
                     <h4 class="font-bold">P-Storyuspendisse finibus1</h4>
-
-                    <div class="w-1/3 mx-auto text-center bg-blue-700 rounded hover:bg-blue-500 transition-all">
-                        <a href="#" class="">
-                            <h4 class="font-semibold ">habitasse platea1-1</h4>
-                        </a>
-                    </div>
-                </div>
-                <div class=" px-4 py-2 text-center leading-loose shadow-xl border-blue-500 border-2">
-                    <h4 class="font-bold">P-Storyuspendisse finibus1</h4>
-
                     <div class="w-1/3 mx-auto text-center bg-blue-700 rounded hover:bg-blue-500 transition-all">
                         <a href="#" class="">
                             <h4 class="font-semibold ">habitasse platea1-1</h4>
@@ -383,15 +333,52 @@
                 </div>
                 <div class=" px-4 py-2 text-center leading-loose shadow-xl border-blue-500 border-2">
                     <h4 class="font-bold">P-Storyuspendisse finibus1</h4>
-
                     <div class="w-1/3 mx-auto text-center bg-blue-700 rounded hover:bg-blue-500 transition-all">
                         <a href="#" class="">
                             <h4 class="font-semibold ">habitasse platea1-1</h4>
                         </a>
                     </div>
                 </div>
-
-
+                <div class=" px-4 py-2 text-center leading-loose shadow-xl border-blue-500 border-2">
+                    <h4 class="font-bold">P-Storyuspendisse finibus1</h4>
+                    <div class="w-1/3 mx-auto text-center bg-blue-700 rounded hover:bg-blue-500 transition-all">
+                        <a href="#" class="">
+                            <h4 class="font-semibold ">habitasse platea1-1</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class=" px-4 py-2 text-center leading-loose shadow-xl border-blue-500 border-2">
+                    <h4 class="font-bold">P-Storyuspendisse finibus1</h4>
+                    <div class="w-1/3 mx-auto text-center bg-blue-700 rounded hover:bg-blue-500 transition-all">
+                        <a href="#" class="">
+                            <h4 class="font-semibold ">habitasse platea1-1</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class=" px-4 py-2 text-center leading-loose shadow-xl border-blue-500 border-2">
+                    <h4 class="font-bold">P-Storyuspendisse finibus1</h4>
+                    <div class="w-1/3 mx-auto text-center bg-blue-700 rounded hover:bg-blue-500 transition-all">
+                        <a href="#" class="">
+                            <h4 class="font-semibold ">habitasse platea1-1</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class=" px-4 py-2 text-center leading-loose shadow-xl border-blue-500 border-2">
+                    <h4 class="font-bold">P-Storyuspendisse finibus1</h4>
+                    <div class="w-1/3 mx-auto text-center bg-blue-700 rounded hover:bg-blue-500 transition-all">
+                        <a href="#" class="">
+                            <h4 class="font-semibold ">habitasse platea1-1</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class=" px-4 py-2 text-center leading-loose shadow-xl border-blue-500 border-2">
+                    <h4 class="font-bold">P-Storyuspendisse finibus1</h4>
+                    <div class="w-1/3 mx-auto text-center bg-blue-700 rounded hover:bg-blue-500 transition-all">
+                        <a href="#" class="">
+                            <h4 class="font-semibold ">habitasse platea1-1</h4>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -437,10 +424,8 @@
                 <div class=""><img src="https://media.s-bol.com/q6L2M54wAOLG/r8woJpB/168x196.jpg"
                         class="w-1/2 mx-auto"></div>
             </div>
-
         </div>
     </div>
-
     <!-- end of text section -->
     <!-- start of text section -->
     <div class="container mx-auto px-4">
@@ -449,7 +434,6 @@
                 <div class="w-1/2 mx-auto"><img src="https://media.s-bol.com/q6L2M54wAOLG/r8woJpB/168x196.jpg"></div>
             </div>
             <div class="h-full px-4 py-2 col-span-2">
-
                 <h1 class="text-blue-700 text-6xl pt-8 px-4">Title of piece4</h1>
                 <p class="py-4 px-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lectus nisi,
                     pulvinar a eleifend vel, interdum at massa. Aenean tincidunt, lectus a convallis convallis, tortor
@@ -458,7 +442,6 @@
                     ornare tincidunt facilisis. Donec dui lorem, aliquam vel sapien sed, scelerisque consectetur leo.
                     Cras lobortis erat vel arcu rutrum iaculis. Interdum et malesuada fames ac ante ipsum primis in
                     faucibus. Nulla at velit posuere, bibendum ex id, interdum arcu.
-
                     Suspendisse potenti. Nam sollicitudin sodales odio vitae malesuada. Proin malesuada massa vitae
                     vestibulum sagittis. Donec porttitor, ligula varius hendrerit malesuada, turpis dui cursus magna, at
                     luctus ligula erat vitae velit. Sed nec sem tempor, porttitor libero a, mollis ante. Nam consectetur
@@ -467,22 +450,14 @@
                     finibus leo sit amet commodo aliquam. Maecenas vestibulum tellus neque, vitae tincidunt massa dictum
                     eget. Nullam ut faucibus est. In hac habitasse platea dictumst. </p>
             </div>
-
-
         </div>
     </div>
-
-
     <!-- end of text section -->
-
-
-
     </div>
     </div>
 </body>
 
 </html>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
 integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="{{ url('js/app.js') }}"></script>
