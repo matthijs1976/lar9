@@ -4975,6 +4975,16 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.Alpine = alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"];
 alpinejs__WEBPACK_IMPORTED_MODULE_0__["default"].start();
+$(document).ready(function () {
+  $(".nav-toggler").each(function (_, navToggler) {
+    var target = $(navToggler).data("target");
+    $(navToggler).on("click", function () {
+      $(target).animate({
+        height: "toggle"
+      });
+    });
+  });
+});
 
 /***/ }),
 

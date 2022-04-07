@@ -1,3 +1,21 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+body{
+    @media (min-width: 1024px) {
+    .top-navbar {
+      display: inline-flex !important;
+    }
+    }   
+  }
+    .image1 {
+      background-image: url(https://archeosupport.nl/img/cover.jpg);
+    }
+    .image2 {
+      background-image: url(https://climate.copernicus.eu/sites/default/files/styles/hero_image_extra_large_2x/public/2018-07/forestfire.jpg?itok=ZnnbJ0SX);
+    }
+    .image3 {
+      background-image: url(https://climate.copernicus.eu/sites/default/files/styles/hero_image_extra_large_2x/public/2018-07/forestfire.jpg?itok=ZnnbJ0SX);
+    }
+  
