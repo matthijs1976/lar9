@@ -2,13 +2,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-body{
-    @media (min-width: 1024px) {
-    .top-navbar {
-      display: inline-flex !important;
-    }
-    }   
-  }
+
     .image1 {
       background-image: url(https://archeosupport.nl/img/cover.jpg);
     }

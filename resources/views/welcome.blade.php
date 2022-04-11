@@ -15,11 +15,11 @@
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
-                                    <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>
+                                        <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>
 @else
     <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
 
-                                    @if (Route::has('register'))
+                                        @if (Route::has('register'))
     <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
     @endif
                     @endauth
@@ -45,11 +45,11 @@
     <!-- start nav -->
     <nav class="flex sticky inset-x-0 top-0 left-0 items-center bg-gray-800 p-3 flex-wrap">
         <a href="#" class="p-2 mr-4 inline-flex items-center">
-            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fill-current text-white h-8 w-8 mr-2">
+            <!--<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="fill-current text-white h-8 w-8 mr-2">
                 <path
                     d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z" />
-            </svg>
-            <span class="text-xl text-white font-bold uppercase tracking-wide">Talwind CSS</span>
+            </svg>-->
+            <span class="text-xl text-blue-700 font-bold uppercase tracking-wide">Archeosupport</span>
         </a>
         <button
             class="text-white inline-flex p-3 hover:bg-gray-900 rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler"
@@ -292,10 +292,11 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>
     <!-- end of stories section -->
     <!-- start of pers-stories section -->
-    <section id="pers-stories" class="py-16 bg-blue-700 ">
+    <section id="pers-stories" class="py-16 bg-blue-700 rounded-b-lg">
         <div class="container mx-auto px-4 text-white ">
             <h2 class="text-center text-3xl font-bold mb-10">PersonalStories</h2>
             <div class="grid gap-4 md:grid-cols-2">
@@ -385,14 +386,59 @@
     <!-- end of pers-stories section -->
     <!-- start of contact section -->
     <section id="contact">
-        <div class="flex w-full min-h-screen justify-center items-center">
-            <div class="flex flex-col space-y-6 bg-blue-700 w-full max-w-4xl p-8 rounded-xl shadow-lg text-white">
-                <div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+        <div class="flex w-full min-h-screen justify-center items-center mt-8">
+            <div
+                class="flex flex-col md:space-x-6 md:space-y-0 space-y-6 md:flex-row bg-blue-700 w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white">
+                <div class="flex flex-col space-y-8">
+                    <div>
+                        <h1 class="font-bold text-4xl tracking-wide">Contact</h1>
+                        <p class="pt-2 text-blue-300 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+                    <div class="flex flex-col space-y-6">
+                        <div class="inline-flex space-x-2 items-center">
+                            <ion-icon name="call" class="text-blue-200 text-xl"></ion-icon>
+                            <span>06-123 456 78</span>
+                        </div>
+                        <div class="inline-flex space-x-2 items-center">
+                            <ion-icon name="mail" class="text-blue-200 text-xl"></ion-icon>
+                            <span>At@at.com</span>
+                        </div>
+                        <div class="inline-flex space-x-2 items-center">
+                            <ion-icon name="location" class="text-blue-200 text-xl"></ion-icon>
+                            <span>Groningen</span>
+                        </div>
+                    </div>
                 </div>
-                <div></div>
+                <div class="bg-white text-blue-700 rounded-xl shadow-lg p-8">
+                    <form action="" class="flex flex-col space-y-4">
+                        <div>
+                            <label for="" class="text-sm">Uw Naam</label>
+                            <div>
+                                <input type="text" placeholder="Uw Naam"
+                                    class="ring-1 ring-blue-700 w-full mt-2 rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-blue-200">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="" class="text-sm">Uw Email</label>
+
+                            <div>
+                                <input type="email" placeholder="Uw Email"
+                                    class="ring-1 ring-blue-700 w-full mt-2 rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-blue-200">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="" class="text-sm">Uw Bericht</label>
+                            <div>
+                                <textarea placeholder="Uw Bericht" rows="4"
+                                    class="ring-1 ring-blue-700 w-full mt-2 rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-blue-200"></textarea>
+                            </div>
+                        </div>
+                        <button
+                            class="inline-block self-end bg-blue-700 text-blue-200 font-bold rounded-lg px-6 py-2 uppercase text-sm">Verzend
+                            Bericht</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
@@ -460,4 +506,6 @@
 </html>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
 integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script src="{{ url('js/app.js') }}"></script>
