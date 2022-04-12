@@ -15,11 +15,11 @@
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
-                                        <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>
+                                            <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>
 @else
     <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
 
-                                        @if (Route::has('register'))
+                                            @if (Route::has('register'))
     <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
     @endif
                     @endauth
@@ -443,62 +443,65 @@
         </div>
     </section>
     <!-- end of contact section -->
-    <!-- start of text section -->
-    <div class="container mx-auto px-4">
-        <div class="grid md:grid-cols-3">
-            <div class="h-full px-4 py-2 col-span-2">
-                <h1 class="text-blue-700 text-6xl pt-8 px-4">Title of piece3</h1>
-                <p class="py-4 px-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lectus nisi,
-                    pulvinar a eleifend vel, interdum at massa. Aenean tincidunt, lectus a convallis convallis, tortor
-                    justo convallis risus, iaculis pharetra tortor quam eget libero. Nulla ultricies, tellus eu
-                    scelerisque fringilla, lectus leo blandit leo, nec volutpat nibh nulla tempor risus. Pellentesque
-                    ornare tincidunt facilisis. Donec dui lorem, aliquam vel sapien sed, scelerisque consectetur leo.
-                    Cras lobortis erat vel arcu rutrum iaculis. Interdum et malesuada fames ac ante ipsum primis in
-                    faucibus. Nulla at velit posuere, bibendum ex id, interdum arcu.
+    <!-- start of foto section -->
 
-                    Suspendisse potenti. Nam sollicitudin sodales odio vitae malesuada. Proin malesuada massa vitae
-                    vestibulum sagittis. Donec porttitor, ligula varius hendrerit malesuada, turpis dui cursus magna, at
-                    luctus ligula erat vitae velit. Sed nec sem tempor, porttitor libero a, mollis ante. Nam consectetur
-                    lacus nec nisl sodales sollicitudin. Donec porta tincidunt vulputate. Ut placerat mauris mi, eu
-                    blandit justo facilisis et. Sed consectetur quis eros eget feugiat. In quis turpis ante. Suspendisse
-                    finibus leo sit amet commodo aliquam. Maecenas vestibulum tellus neque, vitae tincidunt massa dictum
-                    eget. Nullam ut faucibus est. In hac habitasse platea dictumst. </p>
-            </div>
-            <div class="h-full px-4 py-2">
-                <div class=""><img src="https://media.s-bol.com/q6L2M54wAOLG/r8woJpB/168x196.jpg"
-                        class="w-1/2 mx-auto"></div>
-                <div class=""><img src="https://media.s-bol.com/q6L2M54wAOLG/r8woJpB/168x196.jpg"
-                        class="w-1/2 mx-auto"></div>
+    <!-- end of foto section -->
+    <!-- start of footer section -->
+    <footer>
+        <div class="p-10 mt-8 bg-blue-700 rounded-xl text-white">
+            <div class="max-w-7xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
+                    <div class="mb-5">
+                        <h4 class="text-2xl pb-4">ArcheoSupport bv</h4>
+                        <p class="text-blue-200">
+                        Straat<br>
+                        postcode<br>
+                        Groningen<br>
+                        Nederland<br>
+                        <ion-icon name="call" class="text-xl"></ion-icon>
+                        <span>06-123 456 78</span><br>
+                        <ion-icon name="mail" class="text-blue-200 text-xl"></ion-icon>
+                        <span>At@at.com</span><br>
+                        </p>
+                    </div>
+                    <div class="mb-5">
+                        <h4 class="text-2xl pb-4">Diensten</h4>
+                        <ul class="text-blue-200">
+                            <li class="pb-4"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#" class="hover:text-white">habitasse platea</a></li>
+                            <li class="pb-4"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#" class="hover:text-white">habitasse platea</a></li>
+                            <li class="pb-4"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#" class="hover:text-white">habitasse platea</a></li>
+                            <li class="pb-4"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#" class="hover:text-white">habitasse platea</a></li>
+                            <li class="pb-4"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#" class="hover:text-white">habitasse platea</a></li>
+                            <li class="pb-4"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#" class="hover:text-white">habitasse platea</a></li>
+                        </ul>
+                    </div>
+                    <div class="mb-5">
+                        <h4 class="text-2xl pb-4">Publicaties</h4>
+                        <ul class="text-blue-200">
+                            <li class="pb-4"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#" class="hover:text-white">habitasse platea</a></li>
+                            <li class="pb-4"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#" class="hover:text-white">habitasse platea</a></li>
+                            <li class="pb-4"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#" class="hover:text-white">habitasse platea</a></li>
+                            <li class="pb-4"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#" class="hover:text-white">habitasse platea</a></li>
+                            <li class="pb-4"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#" class="hover:text-white">habitasse platea</a></li>
+                            <li class="pb-4"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#" class="hover:text-white">habitasse platea</a></li>
+                        </ul>
+                    </div>
+                    <div class="mb-5">
+                        <h4 class="text-2xl pb-4">Links</h4>
+                        <ul class="text-blue-200">
+                            <li class="pb-4"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#" class="hover:text-white">habitasse platea</a></li>
+                            <li class="pb-4"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#" class="hover:text-white">habitasse platea</a></li>
+                            <li class="pb-4"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#" class="hover:text-white">habitasse platea</a></li>
+                            <li class="pb-4"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#" class="hover:text-white">habitasse platea</a></li>
+                            <li class="pb-4"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#" class="hover:text-white">habitasse platea</a></li>
+                            <li class="pb-4"><ion-icon name="chevron-forward-outline"></ion-icon><a href="#" class="hover:text-white">habitasse platea</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- end of text section -->
-    <!-- start of text section -->
-    <div class="container mx-auto px-4">
-        <div class="grid md:grid-cols-3">
-            <div class="px-4 py-2 ">
-                <div class="w-1/2 mx-auto"><img src="https://media.s-bol.com/q6L2M54wAOLG/r8woJpB/168x196.jpg"></div>
-            </div>
-            <div class="h-full px-4 py-2 col-span-2">
-                <h1 class="text-blue-700 text-6xl pt-8 px-4">Title of piece4</h1>
-                <p class="py-4 px-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lectus nisi,
-                    pulvinar a eleifend vel, interdum at massa. Aenean tincidunt, lectus a convallis convallis, tortor
-                    justo convallis risus, iaculis pharetra tortor quam eget libero. Nulla ultricies, tellus eu
-                    scelerisque fringilla, lectus leo blandit leo, nec volutpat nibh nulla tempor risus. Pellentesque
-                    ornare tincidunt facilisis. Donec dui lorem, aliquam vel sapien sed, scelerisque consectetur leo.
-                    Cras lobortis erat vel arcu rutrum iaculis. Interdum et malesuada fames ac ante ipsum primis in
-                    faucibus. Nulla at velit posuere, bibendum ex id, interdum arcu.
-                    Suspendisse potenti. Nam sollicitudin sodales odio vitae malesuada. Proin malesuada massa vitae
-                    vestibulum sagittis. Donec porttitor, ligula varius hendrerit malesuada, turpis dui cursus magna, at
-                    luctus ligula erat vitae velit. Sed nec sem tempor, porttitor libero a, mollis ante. Nam consectetur
-                    lacus nec nisl sodales sollicitudin. Donec porta tincidunt vulputate. Ut placerat mauris mi, eu
-                    blandit justo facilisis et. Sed consectetur quis eros eget feugiat. In quis turpis ante. Suspendisse
-                    finibus leo sit amet commodo aliquam. Maecenas vestibulum tellus neque, vitae tincidunt massa dictum
-                    eget. Nullam ut faucibus est. In hac habitasse platea dictumst. </p>
-            </div>
-        </div>
-    </div>
-    <!-- end of text section -->
+    </footer>
+    <!-- end of footer section -->
     </div>
     </div>
 </body>
