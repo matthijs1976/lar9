@@ -16,27 +16,27 @@
             class="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto">
             <a href="#"
                 class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white">
-                <span>Home</span>
-            </a>
-            <a href="#"
-                class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white">
-                <span>About</span>
+                <span>Archeologisch Onderzoek</span>
             </a>
             <a href="#services"
                 class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white">
-                <span>Services</span>
+                <span>Diensten</span>
+            </a>
+            <a href="#publicaties"
+                class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white">
+                <span>Publicaties</span>
             </a>
             <a href="#stories"
                 class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white">
-                <span>Gallery</span>
+                <span>Medewerkers</span>
             </a>
-            <a href="#"
+            {{-- <a href="#"
                 class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white">
                 <span>Products</span>
-            </a>
+            </a> --}}
             <a href="#contact"
                 class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white">
-                <span>Contact Us</span>
+                <span>Contact</span>
             </a>
         </div>
     </div>

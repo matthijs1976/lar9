@@ -65,8 +65,8 @@
     @include('inc.diensten')
     <!-- end of services section -->
     <!-- start of stories section -->
-    <section id="stories" class="py-16 bg-blue-700 ">
-        <div class="container mx-auto px-4 text-white ">
+    <section id="publicaties" class="py-16 bg-blue-700 ">
+        <div class="container mx-auto py-4 px-4 text-white ">
             <h2 class="text-center text-3xl font-bold mb-10">Publicaties</h2>
             <div class="grid gap-4 md:grid-cols-2">
                 <div class=" px-4 py-2 text-center leading-loose shadow-xl border-blue-500 border-2">
@@ -110,7 +110,7 @@
     <!-- end of stories section -->
     <!-- start of pers-stories section -->
     <section id="pers-stories" class="py-16 bg-blue-700 rounded-b-lg">
-        <div class="container mx-auto px-4 text-white ">
+        <div class="container mx-auto py-4 px-4 text-white ">
             <h2 class="text-center text-3xl font-bold mb-10">Persoonlijke Publicaties</h2>
             <div class="grid gap-4 md:grid-cols-2">
                 <div class=" px-4 py-2 text-center leading-loose shadow-xl border-blue-500 border-2">
@@ -199,7 +199,7 @@
     <!-- end of pers-stories section -->
     <!-- start of contact section -->
     <section id="contact">
-        <div class="flex w-full min-h-screen justify-center items-center mt-8">
+        <div class="flex w-full min-h-screen justify-center py-4 items-center mt-8">
             <div
                 class="flex flex-col md:space-x-6 md:space-y-0 space-y-6 md:flex-row bg-blue-700 w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg text-white">
                 <div class="flex flex-col space-y-8">
