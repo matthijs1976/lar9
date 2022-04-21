@@ -11,7 +11,7 @@
 </head>
 
 <body class="antialiased">
-    <!-- <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+    <div class="relative flex items-top justify-center h-12 bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
@@ -25,17 +25,17 @@
                     @endauth
                 </div>
             @endif
-            </div>-->
+            </div>
     <div class="w-full relative">
         <div class="w-full h-full flex flex-col absolute top-0 left-0 justify-center items-center text-white">
             <div class="w-28 md:w-36"><img src="https://www.archeosupport.nl/img/logo.png"></div>
             <div>
-                <h1 class="text-2xl md:text-6xl text-center">texttextentex xt</h1>
-                <h2 class="hidden md:block text-3xl text-center font-bold">text text text</h2>
+                <h1 class="text-2xl md:text-6xl text-center">ArcheoSupport bv</h1>
+                <h2 class="hidden md:block text-3xl text-center font-bold">Alles voor uw archeologisch onderzoek!</h2>
                 <div class="flex justify-center md:pt-2">
                     <a href="#services">
-                        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold pt-1 pb-2 px-4 rounded-full">
-                            Service
+                        <button class="bg-blue-700 hover:bg-blue-600 text-white font-bold pt-1 pb-2 px-4 rounded-full">
+                            Diensten
                         </button></a>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                 <path
                     d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z" />
             </svg>-->
-            <span class="text-xl text-blue-700 font-bold uppercase tracking-wide">Archeosupport</span>
+            <span class="text-xl md:text-4xl text-blue-700 font-bold tracking-wide">ArcheoSupport</span>
         </a>
         <button
             class="text-white inline-flex p-3 hover:bg-gray-900 rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler"
@@ -444,11 +444,11 @@
     </section>
     <!-- end of contact section -->
     <!-- start of foto section -->
-
+    <div><img src="https://www.archeosupport.nl/img/Loppersum1.jpg"></div>
     <!-- end of foto section -->
     <!-- start of footer section -->
     <footer>
-        <div class="p-10 mt-8 bg-blue-700 rounded-xl text-white">
+        <div class="p-10 mt-8 bg-blue-700 rounded-t-xl text-white">
             <div class="max-w-7xl mx-auto">
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
                     <div class="mb-5">
