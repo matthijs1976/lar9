@@ -27,7 +27,7 @@
             @endif
             </div> --}}
      <!-- start hero -->
-     @include('inc.heroindex')
+     @include('inc.heropages')
      <!-- end hero -->    
     <!-- start nav -->
     @include('inc.nav')

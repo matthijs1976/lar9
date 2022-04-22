@@ -10,6 +10,9 @@ module.exports = {
 
     theme: {
         extend: {
+            colors: {
+                'blue-700': '#230fd2',
+              },
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },

@@ -12,4 +12,9 @@ class PagesController extends Controller
         //return view('pages.index')->with('posts', $posts);
         return view('index');
     }
+
+    public function onderzoek()
+    {
+        return view('pages.archeologisch-onderzoek');
+    }
 }
