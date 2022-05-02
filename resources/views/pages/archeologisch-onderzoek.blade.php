@@ -1,4 +1,5 @@
 @extends('layout2.app')
+@section('title', '|Archeologisch Onderzoek')
 @section('content')
 <div class="container mx-auto px-4">
     <div class="grid md:grid-cols-3">

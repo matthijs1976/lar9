@@ -1,8 +1,9 @@
 @extends('layout1.app')
+@section('title', '|Home')
 @section('content')
 <div class="container mx-auto px-4">
     <div class="grid md:grid-cols-3">
-        <div class="h-full px-4 py-2 col-span-2">
+        <div class="h-full px-4 py-2 md:p-8 col-span-2">
             <h1 class="text-blue-700 text-3xl md:text-6xl pt-8 px-4">Over ArcheoSupport</h1>
             <p class="py-4 px-4">In 2001 werd ArcheoSupport opgericht als landelijk opererend archeologisch adviesbureau.
                  Een jaar later, op 5 juli 2002, kreeg ArcheoSupport, als eerste, erkenning van het College voor de Archeologische
@@ -16,8 +17,9 @@
                          het Cultureel Erfgoed te Amersfoort aan ArcheoSupport een opgravingsvergunning verleend, zodat nu ook het volledige
                           opgravingstraject kan worden verzorgd.</p>
         </div>
-        <div class="h-full px-4 py-2">
-            <div class="w-full md:w-2/3 mx-auto"><img src="/images/ArcheoSupport2.jpg"></div>
+        <div class="h-full w-full flex items-center justify-center px-4 py-4">
+            <div class="w-full md:w-1/3 mx-auto"><img src="/img/logo.png"></div>
+            <div class="hidden md:block md:w-2/3 mx-auto"><img src="/images/ArcheoSupport2.jpg"></div>
         </div>
     </div>
 </div>
