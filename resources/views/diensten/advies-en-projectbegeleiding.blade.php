@@ -16,7 +16,7 @@
                           
         </div>
         <div class="h-full px-4 py-6">
-            <div class="h-full pb-4 md:w-2/3 mx-auto"><img src="/img/logo.png"></div>            
+            <div class="pb-4 md:w-2/3 mx-auto"><img src="/img/logo.png"></div>            
             <div class="md:w-2/3 mx-auto"><img src="/images/ijzertijdhuis-doetinchemwijnbergen.jpg" alt=""></div>
         </div>
     </div>
