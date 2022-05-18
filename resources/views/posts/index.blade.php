@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
@@ -60,6 +59,3 @@
         </div>
     </div>
 </x-app-layout>
-=======
-post index
->>>>>>> d9a58528b49f903808445762182ebad212744fe2

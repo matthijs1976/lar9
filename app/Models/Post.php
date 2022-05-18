@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Post extends Model
 {
     use HasFactory;
-<<<<<<< HEAD
    //table name
    //protected $table = 'posts';
 
@@ -18,12 +17,4 @@ class Post extends Model
        'fototitle',
     ];
 
-=======
-     //table name
-     protected $table = 'posts';
-     //primary key
-     public $primaryKey = 'id';
-     //Timestamps
-     public $timestamps = 'true';
->>>>>>> d9a58528b49f903808445762182ebad212744fe2
 }
