@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\PostController;
 use App\Http\Controllers\ServicesController;
 
 /*
@@ -18,7 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 */
-//Pages
+//public pages
 Route::get('/', [PagesController::class, 'index']);
 Route::get('/pages/archeologisch-onderzoek', [PagesController::class, 'onderzoek']);
 
@@ -64,3 +65,6 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+//post resource route(!auth)
+Route::resource('posts', \App\Http\Controllers\PostController::class);

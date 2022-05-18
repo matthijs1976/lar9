@@ -14,7 +14,7 @@
                     <p class="py-4 px-4 text-lg">De studie van hout en houtskool kan veel inzicht geven in de natuurlijke omgeving. Daarnaast is hout door de mensen gebruikt als bouwmateriaal, brandstof en voor
                         gebruiksvoorwerpen. Naast informatie over het milieu, verschaft het onderzoek van hout en houtskool daarom ook belangrijke inhoudelijke archeologische informatie.</p>
                           <p class="py-4 px-4 text-lg">Het onderzoek naar botanische macroresten, hout en houtskool wordt gedaan door <a href="#">Frits Vrede</a>.</p>
-                             <p class="py-4 px-4 text-lg"></p>
+                             
         </div>
         <div class="h-full px-4 py-6">
             <div class="md:w-2/3 mx-auto"><img src="/img/logo.png" class="w-full mx-auto py-4"></div>
