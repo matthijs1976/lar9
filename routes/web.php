@@ -3,7 +3,11 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\PagesController;
+<<<<<<< HEAD
 use App\Http\Controllers\PostController;
+=======
+use App\Http\Controllers\PostsController;
+>>>>>>> d9a58528b49f903808445762182ebad212744fe2
 use App\Http\Controllers\ServicesController;
 
 /*
@@ -67,4 +71,8 @@ Route::middleware([
 });
 
 //post resource route(!auth)
+<<<<<<< HEAD
 Route::resource('posts', \App\Http\Controllers\PostController::class);
+=======
+Route::resource('posts', PostsController::class);
+>>>>>>> d9a58528b49f903808445762182ebad212744fe2
